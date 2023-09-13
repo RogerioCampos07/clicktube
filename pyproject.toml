@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "clicktube"
+version = "0.1.0"
+description = ""
+authors = ["Rogerio Campos <rogerio.campos07@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+pytube = "^15.0.0"
+
+[tool.poetry.scripts]
+clicktube = 'clicktube:tube'
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+taskipy = "^1.12.0"
+blue = "^0.9.1"
+ruff = "^0.0.289"
+isort = "^5.12.0"
+ignr = "^2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

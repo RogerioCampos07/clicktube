@@ -1,6 +1,6 @@
 # --Clicktube--
 
-Aplicativo desenvolvido para uso em terminal para realizar downloads de videos e audios de uma famosa plataforma de videos.:smiley:
+Aplicativo desenvolvido para uso em terminal para realizar downloads de videos e audios de uma famosa plataforma de videos.😀
 
 ---
 
